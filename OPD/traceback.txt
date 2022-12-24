@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 32, in script
+    director normal "Всё в порядке. Мне сказали, что это смышлёные студенты, но расслабляться нельзя. Вдруг обманули."
+Exception: Sayer b'director' is not a function or string.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 32, in script
+    director normal "Всё в порядке. Мне сказали, что это смышлёные студенты, но расслабляться нельзя. Вдруг обманули."
+  File "G:\renpy-8.0.3-sdk\renpy\ast.py", line 898, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer b'director' is not a function or string.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+OPD 1.0
+Mon Dec 12 09:39:27 2022

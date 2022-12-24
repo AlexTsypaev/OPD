@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 6: invalid syntax
+    Character('Игорь', color="#78DBE2" image = 'igor')
+                                        ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Dec 12 09:50:50 2022
